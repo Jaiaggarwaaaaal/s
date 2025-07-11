@@ -9,8 +9,8 @@ It is generated with [Stainless](https://www.stainless.com/).
 Because it's not published yet, clone the repo and build it:
 
 ```sh
-git clone git@github.com:stainless-sdks/eniac-typescript.git
-cd eniac-typescript
+git clone git@github.com:Jaiaggarwaaaaal/s.git
+cd s
 ./scripts/bootstrap
 ./scripts/build
 ```
@@ -40,7 +40,7 @@ For clients with a configuration JSON, it might look something like this:
   "mcpServers": {
     "eniac_api": {
       "command": "node",
-      "args": ["/path/to/local/eniac-typescript/packages/mcp-server", "--client=claude", "--tools=all"],
+      "args": ["/path/to/local/s/packages/mcp-server", "--client=claude", "--tools=all"],
       "env": {
         "PETSTORE_API_KEY": "My API Key"
       }
